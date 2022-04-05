@@ -1,7 +1,3 @@
-
-
-
-
 function init(){
 	canvas = document.getElementById('mycanvas');
 	W = H = canvas.width = canvas.height = 1000;
@@ -11,7 +7,7 @@ function init(){
 	score = 5;
 
 
-	//Create a Image Object for food
+	//Image Object for food
 	food_img = new Image();
 	food_img.src = "Assets/apple.png";
 
@@ -167,14 +163,3 @@ function gameloop(){
 init();
 
 var f = setInterval(gameloop,100);
-
-
-
-
-
-
-
-
-
-
-
